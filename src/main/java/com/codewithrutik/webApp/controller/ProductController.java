@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.util.List;
 
 @RestController
-@CrossOrigin
+@CrossOrigin("https://ecommerce-ry-frontend.vercel.app")
 @RequestMapping("/api")
 public class ProductController {
     @Autowired
