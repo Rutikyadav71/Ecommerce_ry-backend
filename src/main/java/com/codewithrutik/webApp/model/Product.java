@@ -38,4 +38,14 @@ public class Product {
     @Lob
     private byte[] imageDate;
 
+    public String getImageName() { return imageName; }
+    public void setImageName(String imageName) { this.imageName = imageName; }
+
+    public String getImageType() { return imageType; }
+    public void setImageType(String imageType) { this.imageType = imageType; }
+
+    public byte[] getImageDate() { return imageDate; }
+    public void setImageDate(byte[] imageDate) { this.imageDate = imageDate; }
+
+
 }
